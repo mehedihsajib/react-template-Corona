@@ -1,0 +1,39 @@
+.button-normal {
+    background: #5fe60e;
+    color: #fff !important;
+    padding: 15px 35px;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 500;
+
+    &:hover {
+        background-color: #fff;
+        color: #5fe60e !important;
+    }
+}
+
+.button-round {
+    background: #5fe60e;
+    color: #fff !important;
+    padding: 15px 35px;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 50px;
+    display: inline-block;
+
+    &:hover {
+        background: #fff;
+        color: #5fe60e !important;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,111 @@
+/**************************************
+    Section Ttile
+***************************************/
+.section_title.left {
+    text-align: left;
+}
+.section_title.left .section_title_thumb {
+    position: absolute;
+    margin-bottom: 100px;
+}
+/* Section Title Center */
+.section_title.center {
+    text-align: center;
+}
+
+.section_title.left {
+    text-align: left;
+}
+
+.section_title_content h2 {
+    color: #fff;
+    margin: 0;
+}
+.section_title_content p {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.section_title.center .section_title_content p {
+    width: 75%;
+    margin: auto;
+}
+.section_title h5 {
+    text-transform: uppercase;
+    color: #5fe60e;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.color_black .section_title_content h2 {
+    color: #232323;
+}
+.color_black .section_title_content p {
+    color: #616161;
+}
+.section_title h5 {
+    text-transform: uppercase;
+    color: #5fe60e;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+/**************************************
+    Services
+***************************************/
+
+.bg_img {
+    background-image: url("../../images/slider-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.single_service {
+    text-align: center;
+    background: #0b2c55;
+    padding: 40px 26px 32px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.single_service:hover {
+    transform: translateY(-10px);
+}
+.single_service_icon img {
+    border-radius: 100%;
+}
+.single_service_title h4 {
+    font-size: 22px;
+    color: #fff;
+    position: relative;
+}
+.single_service_title h4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 40px;
+    height: 2px;
+    width: 80px;
+    background: #5fe60e;
+    right: 0;
+    margin: auto;
+}
+.single_service_text p {
+    color: #fff;
+    font-size: 16px;
+}
+.single_service_button a {
+    color: #5fe60e;
+    font-weight: 500;
+}
+/* Style Two */
+.style2 .single_service {
+    background: #fff;
+}
+.style2 .single_service_title h4 {
+    color: #232323;
+}
+.style2 .single_service_text p {
+    color: #616161;
+}

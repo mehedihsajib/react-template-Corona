@@ -1,0 +1,40 @@
+.card-header {
+    background-color: #003569 !important;
+    border-bottom: 1px solid #fff !important;
+}
+.card-body {
+    background: #003569;
+    color: #fff;
+}
+.btn-link {
+    font-weight: 600 !important;
+    color: #fff !important;
+    font-size: 20px !important;
+}
+
+.accordion__item {
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.accordion__heading {
+    background-color: var(--color-secondary);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 0.25rem;
+}
+
+.accordion__panel {
+    background-color: var(--color-secondary);
+    font-size: 16px;
+    padding: 20px;
+    color: #fff;
+}
