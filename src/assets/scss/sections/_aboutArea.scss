@@ -2,8 +2,20 @@
     text-align: left;
 }
 
+.section_title_content {
+    h5 {
+        @media (max-width: 991px) {
+            margin-top: 20px;
+        }
+    }
+}
+
 .single_about_thumb img {
     width: 100%;
+
+    @media (max-width: 991px) {
+        margin-top: 30px;
+    }
 }
 
 .single-about {

@@ -8,7 +8,7 @@ const AboutArea = () => (
     <>
         <div className="about_area bg_color pb-60 pt-80">
             <div className="container">
-                <div className="row">
+                <div className="row gy-4 gy-lg-0">
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className="single_about_thumb mb-4">
                             <img src={aboutImg1} alt="" />

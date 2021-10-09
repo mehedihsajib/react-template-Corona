@@ -1,3 +1,10 @@
+.single_footer_title {
+    @media (max-width: 767px) {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+
 .single_footer_title h4 {
     color: #fff;
 }
@@ -37,6 +44,10 @@
 .single_footer_recent_thumb {
     float: left;
     margin-right: 2px;
+
+    @media (max-width: 767px) {
+        margin-bottom: 10px;
+    }
 }
 .single_footer_recent_thumb img {
     width: 82%;

@@ -15,7 +15,7 @@ import SocialMedia from './SocialMedia';
 const Footer = () => (
     <footer className="footer_area bg_color pt-80 pb-120">
         <div className="container">
-            <div className="row">
+            <div className="row gy-4 gy-lg-0">
                 <div className="col-lg-3 col-md-6">
                     <div className="single_footer">
                         <div className="single_footer_title pb-2">
@@ -43,7 +43,7 @@ const Footer = () => (
                         linkText4="Android Development"
                     />
                 </div>
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-3 col-md-6 mb-sm-4">
                     <RecentUpdate
                         title="Recent Update"
                         thumb={thumb1}

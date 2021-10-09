@@ -76,13 +76,15 @@
 <!-- Corona - Process Area Css -->
 <!-- ============================================================== -->*/
 .single_process {
-    position: relative;
     padding: 0 50px;
+    text-align: center;
 }
 .single_process_thumb {
     border: 5px solid #5fe60e;
     display: inline-block;
     border-radius: 50%;
+    position: relative;
+    text-align: center;
 }
 .single_process_thumb img {
     border-radius: 50%;
@@ -91,7 +93,7 @@
 }
 .single_process_number {
     position: absolute;
-    left: 25px;
+    left: -30px;
     top: 40%;
     margin: auto;
     -webkit-transition: 0.5s;
