@@ -1,4 +1,5 @@
 import React from 'react';
+import MobileMenu from '../components/mobileMenu/MobileMenus';
 import AboutArea from '../sections/about/AboutArea';
 import Blog from '../sections/blog/Blog';
 import Faq from '../sections/faq/Faq';
@@ -11,6 +12,7 @@ import Team from '../sections/team/Team';
 
 const Home = () => (
     <>
+        <MobileMenu />
         <Hero />
         <Features />
         <Services />

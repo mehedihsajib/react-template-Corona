@@ -44,3 +44,31 @@
     height: 100%;
     overflow: hidden;
 }
+
+.paginations {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.page-numbers li {
+    display: inline-block;
+}
+.paginations a,
+.page-numbers span.current {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto 5px;
+    border: 1px solid #ddd;
+    color: #888;
+}
+.paginations a:hover,
+.paginations a.current,
+.page-numbers span.current {
+    background: linear-gradient(to right, #03b8fa, #135ef3);
+    border-color: linear-gradient(to right, #03b8fa, #135ef3);
+    color: #fff;
+}

@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ScrollButton from 'react-scroll-button';
 import MobileMenu from './components/mobileMenu/MobileMenus';
 import About from './pages/About';
+import BlogDetails from './pages/BlogDetails';
+import BlogGrid from './pages/BlogGrid';
 import Contact from './pages/Contact';
 import Faq from './pages/Faq';
 import Home from './pages/Home';
@@ -43,6 +46,12 @@ function App() {
                 <Route path="/faq">
                     <Faq />
                 </Route>
+                <Route path="/blog-grid">
+                    <BlogGrid />
+                </Route>
+                <Route path="/blog-details">
+                    <BlogDetails />
+                </Route>
                 <Route path="/contact">
                     <Contact />
                 </Route>
@@ -51,6 +60,12 @@ function App() {
                 </Route>
             </Switch>
             <Footer />
+            <ScrollButton
+                behavior="smooth"
+                buttonBackgroundColor="#5fe60e"
+                iconType="arrow-up"
+                style={{ fontSize: '16px' }}
+            />
         </Router>
     );
 }

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/images/1.png';
-import MobileMenu from '../../components/mobileMenu/MobileMenus';
 
 const Header = () => {
     // States
@@ -86,10 +85,10 @@ const Header = () => {
                                             <Link to="/news">News </Link>
                                             <ul className="sub-menu">
                                                 <li>
-                                                    <Link to="/">Blog Grid</Link>
+                                                    <Link to="/blog-grid">Blog Grid</Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/">Blog Details</Link>
+                                                    <Link to="/blog-details">Blog Details</Link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -106,7 +105,6 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            <MobileMenu />
         </>
     );
 };

@@ -1,8 +1,11 @@
 import React from 'react';
+import PageBanner from '../components/pageBanner/PageBanner';
+import Team from '../sections/team/Team';
 
 const TeamMember = () => (
     <>
-        <h1>TeamMember Page</h1>
+        <PageBanner heading="Team Member" currentPage="Team Member" />
+        <Team />
     </>
 );
 
