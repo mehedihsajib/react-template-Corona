@@ -20,6 +20,7 @@ const Header = () => {
     return (
         <>
             <nav
+                id="home"
                 className={
                     sitcky
                         ? 'corona_main_menu active d-md-none d-lg-block d-sm-none d-none'

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ScrollButton from 'react-scroll-button';
 import MobileMenu from './components/mobileMenu/MobileMenus';
+import ScrollTop from './components/scrollTop/ScrollTop';
+import ScrollToTop from './components/scrollToTop/ScrollToTop';
 import About from './pages/About';
 import BlogDetails from './pages/BlogDetails';
 import BlogGrid from './pages/BlogGrid';
@@ -18,55 +19,53 @@ import Header from './sections/header/Header';
 
 function App() {
     return (
-        <Router>
-            <Header />
-            <MobileMenu />
-            <Switch>
-                <Route path="/landing-page">
-                    <LandingPage />
-                </Route>
-                <Route path="/home-two">
-                    <HomeTwo />
-                </Route>
-                <Route path="/about">
-                    <About />
-                </Route>
-                <Route path="/prevention">
-                    <Prevention />
-                </Route>
-                <Route path="/news">
-                    <News />
-                </Route>
-                <Route path="/team-member">
-                    <TeamMeamber />
-                </Route>
-                <Route path="/team-details">
-                    <TeamDetails />
-                </Route>
-                <Route path="/faq">
-                    <Faq />
-                </Route>
-                <Route path="/blog-grid">
-                    <BlogGrid />
-                </Route>
-                <Route path="/blog-details">
-                    <BlogDetails />
-                </Route>
-                <Route path="/contact">
-                    <Contact />
-                </Route>
-                <Route path="/">
-                    <Home />
-                </Route>
-            </Switch>
-            <Footer />
-            <ScrollButton
-                behavior="smooth"
-                buttonBackgroundColor="#5fe60e"
-                iconType="arrow-up"
-                style={{ fontSize: '16px' }}
-            />
-        </Router>
+        <>
+            <Router>
+                <ScrollToTop />
+                <Header />
+                <MobileMenu />
+                <Switch>
+                    <Route path="/landing-page">
+                        <LandingPage />
+                    </Route>
+                    <Route path="/home-two">
+                        <HomeTwo />
+                    </Route>
+                    <Route path="/about">
+                        <About />
+                    </Route>
+                    <Route path="/prevention">
+                        <Prevention />
+                    </Route>
+                    <Route path="/news">
+                        <News />
+                    </Route>
+                    <Route path="/team-member">
+                        <TeamMeamber />
+                    </Route>
+                    <Route path="/team-details">
+                        <TeamDetails />
+                    </Route>
+                    <Route path="/faq">
+                        <Faq />
+                    </Route>
+                    <Route path="/blog-grid">
+                        <BlogGrid />
+                    </Route>
+                    <Route path="/blog-details">
+                        <BlogDetails />
+                    </Route>
+                    <Route path="/contact">
+                        <Contact />
+                    </Route>
+                    <Route path="/">
+                        <Home />
+                    </Route>
+                </Switch>
+                <Footer />
+            </Router>
+            <ScrollTop />
+        </>
     );
 }
 
